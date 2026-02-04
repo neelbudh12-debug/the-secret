@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>THE SECRET</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: #000;
+    }
+    #fps {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      color: #00ff00;
+      font-family: monospace;
+      font-size: 14px;
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <div id="fps">FPS:</div>
+
+  <!-- Three.js NON-MODULE build -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.158.0/build/three.min.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
